@@ -1,0 +1,41 @@
+2020-11-28 14:38:04.162  WARN 90832 --- [           main] com.alibaba.scoring.StartingService      : suc to call ready, url:http://localhost:8000/ready
+2020-11-28 14:38:04.758  WARN 90832 --- [           main] com.alibaba.scoring.StartingService      : suc to call ready, url:http://localhost:8001/ready
+2020-11-28 14:38:05.350  WARN 90832 --- [           main] com.alibaba.scoring.StartingService      : suc to call ready, url:http://localhost:8002/ready
+2020-11-28 14:38:05.881  WARN 90832 --- [           main] com.alibaba.scoring.ResultController     : success to call  setParameter, url: http://localhost:8000/setParameter?port=9000
+2020-11-28 14:38:05.999  WARN 90832 --- [           main] com.alibaba.scoring.ResultController     : success to call  setParameter, url: http://localhost:8001/setParameter?port=9000
+2020-11-28 14:38:06.151  WARN 90832 --- [           main] com.alibaba.scoring.ResultController     : success to call  setParameter, url: http://localhost:8002/setParameter?port=9000
+2020-11-28 14:38:21.787  WARN 90832 --- [nio-9000-exec-1] com.alibaba.scoring.ResultController     : begin output result :
+{"score":4550,"f1":80000000,"checkSumRightCount":800,"checkSumWrongCount":0,"checkSumMissCount":0,"noErrorTracingCount":0,"useTime":17579,"startTime":1606545484162,"endTime":1606545501741}
+ end output result.
+
+
+ 2020-11-28 17:30:10.263  WARN 91751 --- [           main] com.alibaba.scoring.StartingService      : suc to call ready, url:http://localhost:8000/ready
+ 2020-11-28 17:30:10.876  WARN 91751 --- [           main] com.alibaba.scoring.StartingService      : suc to call ready, url:http://localhost:8001/ready
+ 2020-11-28 17:30:11.489  WARN 91751 --- [           main] com.alibaba.scoring.StartingService      : suc to call ready, url:http://localhost:8002/ready
+ 2020-11-28 17:30:12.036  WARN 91751 --- [           main] com.alibaba.scoring.ResultController     : success to call  setParameter, url: http://localhost:8000/setParameter?port=9000
+ 2020-11-28 17:30:12.151  WARN 91751 --- [           main] com.alibaba.scoring.ResultController     : success to call  setParameter, url: http://localhost:8001/setParameter?port=9000
+ 2020-11-28 17:30:12.294  WARN 91751 --- [           main] com.alibaba.scoring.ResultController     : success to call  setParameter, url: http://localhost:8002/setParameter?port=9000
+ 2020-11-28 17:30:23.188  WARN 91751 --- [nio-9000-exec-1] com.alibaba.scoring.ResultController     : begin output result :
+ {"score":6210,"f1":80000000,"checkSumRightCount":800,"checkSumWrongCount":0,"checkSumMissCount":0,"noErrorTracingCount":0,"useTime":12881,"startTime":1606555810263,"endTime":1606555823144}
+  end output result.
+
+
+2020-11-28 18:33:29.317  WARN 92665 --- [nio-9000-exec-1] com.alibaba.scoring.ResultController     : begin output result :
+{"score":8217,"f1":80000000,"checkSumRightCount":800,"checkSumWrongCount":0,"checkSumMissCount":0,"noErrorTracingCount":0,"useTime":9735,"startTime":1606559599548,"endTime":1606559609283}
+ end output result.
+
+
+
+ 2020-11-28 20:46:59.529  WARN 93270 --- [           main] com.alibaba.scoring.StartingService      : suc to call ready, url:http://localhost:8000/ready
+ 2020-11-28 20:47:00.147  WARN 93270 --- [           main] com.alibaba.scoring.StartingService      : suc to call ready, url:http://localhost:8001/ready
+ 2020-11-28 20:47:00.774  WARN 93270 --- [           main] com.alibaba.scoring.StartingService      : suc to call ready, url:http://localhost:8002/ready
+ 2020-11-28 20:47:01.302  WARN 93270 --- [           main] com.alibaba.scoring.ResultController     : success to call  setParameter, url: http://localhost:8000/setParameter?port=9000
+ 2020-11-28 20:47:01.445  WARN 93270 --- [           main] com.alibaba.scoring.ResultController     : success to call  setParameter, url: http://localhost:8001/setParameter?port=9000
+ 2020-11-28 20:47:01.569  WARN 93270 --- [           main] com.alibaba.scoring.ResultController     : success to call  setParameter, url: http://localhost:8002/setParameter?port=9000
+ 2020-11-28 20:48:07.178  WARN 93270 --- [nio-9000-exec-1] com.alibaba.scoring.ResultController     : begin output result :
+ {"score":11839,"f1":800000000,"checkSumRightCount":8000,"checkSumWrongCount":0,"checkSumMissCount":0,"noErrorTracingCount":0,"useTime":67568,"startTime":1606567619529,"endTime":1606567687097}
+  end output result.
+
+
+{"score":7606,"f1":800000000,"checkSumRightCount":8000,"checkSumWrongCount":0,"checkSumMissCount":0,"noErrorTracingCount":0,"useTime":105172,"startTime":1606568372973,"endTime":1606568478145}
+ end output result.
